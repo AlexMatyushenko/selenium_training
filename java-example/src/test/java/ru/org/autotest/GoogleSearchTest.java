@@ -31,7 +31,7 @@ public class GoogleSearchTest {
         caps.setCapability("unexpectedAlertBehaviour", "dismiss");
         driver = new ChromeDriver(caps);*/
 
-        //Устанавливаем опйии командной строки
+        //Устанавливаем опции командной строки
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-fullscreen");
         driver = new ChromeDriver(options);
